@@ -14,11 +14,13 @@ class MainActivity : AppCompatActivity() {
 
         /*
 
+        /* REeescribir para newInstance. */
+
         supportFragmentManager
                 .beginTransaction()
                 .add(R.id.activity_slide, fragmentBasic)
                 .commit()
 
-                */
+        */
     }
 }

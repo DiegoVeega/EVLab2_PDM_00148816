@@ -33,4 +33,7 @@
         android:layout_height="wrap_content" />
 
 
+    <!-- Imagen base para sustituar en clase extrayendo el archivo. -->
+
+
 </LinearLayout>
