@@ -15,6 +15,8 @@ import com.diegoveega.evaluacionlaboratorio2.R
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
+//DEberia ser para los botones. enviar los parametros nen newINstances
+
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
@@ -100,6 +102,7 @@ class SlideFragment : Fragment() {
     }
 
     fun NewInstance(param1: String,param2: String){
+
 
 
     }
