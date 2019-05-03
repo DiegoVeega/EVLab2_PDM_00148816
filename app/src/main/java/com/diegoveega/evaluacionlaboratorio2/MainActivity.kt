@@ -10,11 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val fragmentBasic=SlideFragment.newInstance("texto1","texto2")
+        val fragmentBasic=SlideFragment.newInstance("text","text")
+
+        /*
 
         supportFragmentManager
                 .beginTransaction()
                 .add(R.id.activity_slide, fragmentBasic)
                 .commit()
+
+                */
     }
 }
